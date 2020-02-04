@@ -44,7 +44,7 @@
 .oculus_banner .btn span{
     border: 0.5px dashed #DF2A6A;
     border-radius: 13px;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     text-align: center;
     font: Bold 29px/60px Nunito Sans;
     letter-spacing: 0;
