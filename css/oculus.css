@@ -97,3 +97,63 @@
         width: 329px;
     }
 }
+
+
+@media all and (max-width: 1024px) { 
+
+    .oculus_banner {
+        background-size: 100%;
+    }
+
+    .oculus_banner .banner_box {
+        top: 43%;
+        bottom: 0;
+    }
+
+    .oculus_banner img.mobile_image {
+        bottom: -43px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .oculus_banner {
+        background-size: 1197px;
+        background-position: -419px -5px;
+    }
+
+    .oculus_banner img.mobile_image {
+        bottom: 100px;
+        right: calc(50% - 178px);
+    }
+
+    .oculus_banner .banner_box {
+        max-width: 100%;
+        top: 100px;
+    }
+
+    .oculus_banner .heading1 {
+        color: #fff;
+        text-shadow: 0 0px 1px #000;
+    }
+
+    .oculus_banner .btn {
+        opacity: 1;
+        position: fixed;
+        bottom: 66px;
+        z-index: 6;
+        left: calc(50% - 118.5px);
+    }
+
+    .oculus_banner .ang_logo {
+        display: none;
+    }
+
+    .oculus_banner .ang_logo.d-none {
+        display: inline-block !important;
+    }
+
+    .oculus_banner .heading1 {
+        margin-bottom: 46px;
+    }
+}
