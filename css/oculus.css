@@ -1,7 +1,7 @@
  
 .oculus_banner {
     background-image: url(../images/banner_bg.png);
-    background-position: top right;
+    background-position: right -5px;
     height: 100vh;
     background-attachment: fixed;
     position: relative;
@@ -118,8 +118,8 @@
 
 @media all and (max-width: 768px) {
     .oculus_banner {
-        background-size: 1197px;
-        background-position: -419px -5px;
+        background-size: 1300px;
+        background-position: -491px -4px;
     }
 
     .oculus_banner img.mobile_image {
@@ -155,6 +155,110 @@
 
     .oculus_banner .heading1 {
         margin-bottom: 46px;
+    }
+}
+
+@media all and (max-width: 768px) and (orientation : landscape) {
+    .oculus_banner .banner_box {
+        max-width: 43%;
+    }
+
+    .oculus_banner {
+        height: auto;
+        background-size: 500px;
+        background-position: right -5px;
+        min-height: 100vh;
+     }
+
+    .oculus_banner .btn {
+        position: static;
+    }
+
+    .oculus_banner .banner_box {
+        max-width: 50%;
+        top: 0;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+
+    .oculus_banner .heading1 {
+        font-size: 46px;
+        line-height: 46px;
+        margin-bottom: 30px;
+    }
+
+    .oculus_banner img.mobile_image {
+        bottom: -75px;
+        right: 77px;
+        width: 237px;
+    }
+
+    .oculus_banner .heading1 {
+        text-shadow: none;
+        color: #94157E;
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 33px;
+        margin-bottom: 24px;
+    }
+
+    .oculus_banner .ang_logo {
+        display: inline-block;
+    }
+
+    .oculus_banner .ang_logo.d-none {
+        display:none !important;
+    }
+
+
+    .oculus_banner .ang_logo {
+        max-width: 90px;
+    }
+}
+
+@media all and (max-width: 667px) and (orientation : landscape) {
+
+    .oculus_banner .heading1 {
+        font-size: 34px;
+        line-height: 33px;
+        margin-top: 44px;
+        margin-bottom: 20px;
+    }
+
+    .oculus_banner .ang_logo {
+        max-width: 70px;
+        margin-bottom: 8px;
+    }
+
+    .oculus_banner .btn span {
+        font: Bold 16px/42px Nunito Sans;
+    }
+
+    .oculus_banner .btn span svg {
+        width: 30px;
+    }
+
+    .oculus_banner img.mobile_image {
+        bottom: -114px;
+        right: 78px;
+        width: 236px;
+    }
+}
+
+@media all and (max-width: 568px) and (orientation : landscape) {
+
+    .oculus_banner {
+        background-size: 396px;
+    }
+
+    .oculus_banner img.mobile_image {
+        bottom: -93px;
+        right: 55px;
+        width: 212px;
+    }
+
+    .oculus_banner .heading1 {
+        margin-top: 16px;
     }
 }
 
