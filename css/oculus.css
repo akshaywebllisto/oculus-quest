@@ -59,3 +59,41 @@
     bottom: -213px;
     width: 454px;
 }
+
+.oculus_banner .btn span svg {
+    margin-right: 8px;
+    margin-top: -3px;
+}
+
+@media all and (max-width: 1366px) {
+
+    .oculus_banner .banner_box {
+        top: 160px;
+    }
+
+    .oculus_banner {
+        background-position: 102% -5px;
+     }
+
+    .oculus_banner .heading1 {
+        font-size: 58px;
+        line-height: 50px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .oculus_banner .ang_logo {
+        margin-bottom: 20px;
+        max-width: 110px;
+    }
+
+    .oculus_banner .btn span {
+        font: Bold 20px/48px Nunito Sans;
+     }
+
+    .oculus_banner img.mobile_image {
+        right: 177px;
+        bottom: -185px;
+        width: 329px;
+    }
+}
