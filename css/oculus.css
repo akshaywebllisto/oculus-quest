@@ -157,3 +157,42 @@
         margin-bottom: 46px;
     }
 }
+
+@media all and (max-width: 500px) {
+
+    .oculus_banner {
+        background-size: 100%;
+        background-position: center -5px;
+    }
+
+    .oculus_banner img.mobile_image {
+       display: none;
+    }
+
+    .oculus_banner .heading1 {
+        margin-bottom: 46px;
+        color: #94157E;
+        text-shadow: none;
+        margin-top: 154px;
+    }
+
+    .oculus_banner .btn {
+        position: static;
+    }
+
+    .oculus_banner .ang_logo {
+        display: inline-block;
+    }
+
+    .oculus_banner .ang_logo.d-none {
+        display: none !important;
+    }
+}
+
+
+@media all and (max-width: 400px) {
+    .oculus_banner .heading1 {
+        margin-top: 130px;
+        margin-bottom: 34px;
+    }
+}
